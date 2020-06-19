@@ -1,0 +1,40 @@
+.main-background {
+  background-color:#188e55 !important;
+}
+
+#sidebar-wrapper .sidebar-nav li ul{
+	list-style: none;
+}
+
+#sidebar-wrapper .sidebar-nav li ul li{
+	line-height: 2em;
+}
+
+#user-table, #product-table{
+	font-size: 11pt;
+}
+
+
+
+
+
+@media print {
+	#print2{
+		display: none;
+	}
+
+	#printArea{
+		/*background-color: white;*/
+		/*height: 100%;*/
+		/*width: 100%;*/
+		/*position: fixed;*/
+		/*top: 0;*/
+		/*left: 0;*/
+		display: block;
+		position: static;
+		/*margin: 0;*/
+		/*padding: 15px;*/
+		/*font-size: 14px;*/
+		/*line-height: 18px;*/
+	}
+}

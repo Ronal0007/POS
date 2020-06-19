@@ -1,0 +1,16 @@
+1. Authentication and authorization (Login)
+2.
+
+
+
+
+
+
+
+
+Mode    -User ->(Manager, Shopper)
+
+        MANAGER->Users Management
+                -> Products(Name,Qty,price@,Image,slug,)=>(Add,Edit,Delete,Update,Search)
+                -> Reporting (Daily, Weekly, Monthly, etc)
+                -> Sales(prod,amount,price)
